@@ -35,7 +35,7 @@ export const movies = [{
     {
         title: "Thor: Love and Thunder",
         plot: "Thor teams up with Jane Foster, Valkyrie, and Korg to stop Gorr the God Butcher from annihilating all gods.",
-        price: 199,
+        price: 200,
         rating: 6.7,
         poster: "https://resizing.flixster.com/biXtr85Fn_B1JDf4Xc9c6ntbU_A=/206x305/v2/https://resizing.flixster.com/zs8TFWbPfSsndNJWCpNiILwzf3o=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2JiYzJkMmE5LTllZDUtNDQ0Ny1hYmUxLTBmMzk1MDQ4M2NkNC5qcGc=",
         stars: 0,
