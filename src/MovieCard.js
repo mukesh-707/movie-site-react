@@ -3,7 +3,7 @@ import React from "react";
 function MovieCard(props){
         
     const {movies, onIncStars, onClickFav, onClickAddtocart, onDecStars} =  props
-    const {title, plot, poster, price, rating,stars,fav,isInCart} =  props.movies;
+    const {title, plot, poster, price, rating,stars,fav,isInCart,Cast} =  props.movies;
     
         
     return(
@@ -19,13 +19,14 @@ function MovieCard(props){
             <div className="right">
 
                 {/**Title, plot, price of the movie */}
-                <div className="title">{title}</div>
-                <div className="plot">{plot}</div>
-                <div className="price">Rs. {price}</div>
-
+                <div className="title">Title: {title}</div>
+                <div className="plot"><b>Plot:</b> {plot}</div>
+                <div className="price"><b>Rs.</b> {price}</div>
+                <div className="cast"><b>Cast:</b> {Cast}</div>
+             
                 {/**Footer starts here with ratings, stars and buttons */}
                 <div className="footer">
-                    <div className="rating">{rating}</div>
+                    <div className="rating">IMDb {rating}</div>
 
                     {/**Star image with increase and decrease buttons and star count */}
                     <div className="star-dis">

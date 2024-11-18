@@ -50,10 +50,18 @@ body {
   padding: 0 20px;
 }
 .movie-card .price {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 0 20px;
   font-weight: 500;
   color: rgb(0, 75, 0)
+}
+
+.cast{
+  margin-top: 0px;
+  padding: 0 20px;
+  
+ 
+
 }
 .footer {
   position: absolute;
